@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>[&#34;Collections&#34;, &#34;Data-Structures&#34;, &#34;Framework&#34;] on Blog Lập Trình Mạng</title>
+    <link>http://localhost:1313/tags/collections-data-structures-framework/</link>
+    <description>Recent content in [&#34;Collections&#34;, &#34;Data-Structures&#34;, &#34;Framework&#34;] on Blog Lập Trình Mạng</description>
+    <generator>Hugo -- 0.152.0</generator>
+    <language>vi-VN</language>
+    <atom:link href="http://localhost:1313/tags/collections-data-structures-framework/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
