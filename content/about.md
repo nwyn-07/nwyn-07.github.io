@@ -17,7 +17,7 @@ draft: false
 
 Tôi là sinh viên Công nghệ Thông tin với niềm đam mê lập trình và sáng tạo. Blog này là nơi tôi chia sẻ kiến thức và kinh nghiệm về Java và JavaScript thông qua các dự án thực tế.
 ## Học vấn
-Đại học Công nghệ Thông tin
+Đại học Công nghệ Thành phố Hồ Chí Minh
 
 
 Chuyên ngành: Công nghệ phần mềm
