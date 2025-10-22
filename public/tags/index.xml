@@ -2,150 +2,150 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Blog Lập Trình Mạng</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://nwyn-07.github.io/tags/</link>
     <description>Recent content in Tags on Blog Lập Trình Mạng</description>
     <generator>Hugo -- 0.152.0</generator>
     <language>vi-VN</language>
     <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nwyn-07.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Api</title>
-      <link>http://localhost:1313/tags/api/</link>
+      <link>https://nwyn-07.github.io/tags/api/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/api/</guid>
+      <guid>https://nwyn-07.github.io/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Dom</title>
-      <link>http://localhost:1313/tags/dom/</link>
+      <link>https://nwyn-07.github.io/tags/dom/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dom/</guid>
+      <guid>https://nwyn-07.github.io/tags/dom/</guid>
       <description></description>
     </item>
     <item>
       <title>Async</title>
-      <link>http://localhost:1313/tags/async/</link>
+      <link>https://nwyn-07.github.io/tags/async/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/async/</guid>
+      <guid>https://nwyn-07.github.io/tags/async/</guid>
       <description></description>
     </item>
     <item>
       <title>Es6</title>
-      <link>http://localhost:1313/tags/es6/</link>
+      <link>https://nwyn-07.github.io/tags/es6/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/es6/</guid>
+      <guid>https://nwyn-07.github.io/tags/es6/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
-      <link>http://localhost:1313/tags/networking/</link>
+      <link>https://nwyn-07.github.io/tags/networking/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/networking/</guid>
+      <guid>https://nwyn-07.github.io/tags/networking/</guid>
       <description></description>
     </item>
     <item>
       <title>Socket</title>
-      <link>http://localhost:1313/tags/socket/</link>
+      <link>https://nwyn-07.github.io/tags/socket/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/socket/</guid>
+      <guid>https://nwyn-07.github.io/tags/socket/</guid>
       <description></description>
     </item>
     <item>
       <title>Tcp</title>
-      <link>http://localhost:1313/tags/tcp/</link>
+      <link>https://nwyn-07.github.io/tags/tcp/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tcp/</guid>
+      <guid>https://nwyn-07.github.io/tags/tcp/</guid>
       <description></description>
     </item>
     <item>
       <title>Udp</title>
-      <link>http://localhost:1313/tags/udp/</link>
+      <link>https://nwyn-07.github.io/tags/udp/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/udp/</guid>
+      <guid>https://nwyn-07.github.io/tags/udp/</guid>
       <description></description>
     </item>
     <item>
       <title>Collections</title>
-      <link>http://localhost:1313/tags/collections/</link>
+      <link>https://nwyn-07.github.io/tags/collections/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/collections/</guid>
+      <guid>https://nwyn-07.github.io/tags/collections/</guid>
       <description></description>
     </item>
     <item>
       <title>Data-Structures</title>
-      <link>http://localhost:1313/tags/data-structures/</link>
+      <link>https://nwyn-07.github.io/tags/data-structures/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-structures/</guid>
+      <guid>https://nwyn-07.github.io/tags/data-structures/</guid>
       <description></description>
     </item>
     <item>
       <title>Framework</title>
-      <link>http://localhost:1313/tags/framework/</link>
+      <link>https://nwyn-07.github.io/tags/framework/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/framework/</guid>
+      <guid>https://nwyn-07.github.io/tags/framework/</guid>
       <description></description>
     </item>
     <item>
       <title>Debug</title>
-      <link>http://localhost:1313/tags/debug/</link>
+      <link>https://nwyn-07.github.io/tags/debug/</link>
       <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/debug/</guid>
+      <guid>https://nwyn-07.github.io/tags/debug/</guid>
       <description></description>
     </item>
     <item>
       <title>Error-Handling</title>
-      <link>http://localhost:1313/tags/error-handling/</link>
+      <link>https://nwyn-07.github.io/tags/error-handling/</link>
       <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/error-handling/</guid>
+      <guid>https://nwyn-07.github.io/tags/error-handling/</guid>
       <description></description>
     </item>
     <item>
       <title>Exception</title>
-      <link>http://localhost:1313/tags/exception/</link>
+      <link>https://nwyn-07.github.io/tags/exception/</link>
       <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/exception/</guid>
+      <guid>https://nwyn-07.github.io/tags/exception/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>http://localhost:1313/tags/java/</link>
+      <link>https://nwyn-07.github.io/tags/java/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/java/</guid>
+      <guid>https://nwyn-07.github.io/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Object-Oriented</title>
-      <link>http://localhost:1313/tags/object-oriented/</link>
+      <link>https://nwyn-07.github.io/tags/object-oriented/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/object-oriented/</guid>
+      <guid>https://nwyn-07.github.io/tags/object-oriented/</guid>
       <description></description>
     </item>
     <item>
       <title>Oop</title>
-      <link>http://localhost:1313/tags/oop/</link>
+      <link>https://nwyn-07.github.io/tags/oop/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/oop/</guid>
+      <guid>https://nwyn-07.github.io/tags/oop/</guid>
       <description></description>
     </item>
     <item>
       <title>Beginner</title>
-      <link>http://localhost:1313/tags/beginner/</link>
+      <link>https://nwyn-07.github.io/tags/beginner/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/beginner/</guid>
+      <guid>https://nwyn-07.github.io/tags/beginner/</guid>
       <description></description>
     </item>
     <item>
       <title>Java-Basics</title>
-      <link>http://localhost:1313/tags/java-basics/</link>
+      <link>https://nwyn-07.github.io/tags/java-basics/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/java-basics/</guid>
+      <guid>https://nwyn-07.github.io/tags/java-basics/</guid>
       <description></description>
     </item>
     <item>
       <title>Jvm</title>
-      <link>http://localhost:1313/tags/jvm/</link>
+      <link>https://nwyn-07.github.io/tags/jvm/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/jvm/</guid>
+      <guid>https://nwyn-07.github.io/tags/jvm/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Async/Await và Promise trong JavaScript | Blog Lập Trình Mạng</title>
 <meta name="keywords" content="async">
 <meta name="description" content="Làm chủ lập trình bất đồng bộ với Async/Await và Promise">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/async-javascript/">
+<link rel="canonical" href="https://nwyn-07.github.io/posts/async-javascript/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.a482bf00fa5c046040ef7973ad5fdf5657890cacb596c93f1382f664ca542074.css" integrity="sha256-pIK/APpcBGBA73lzrV/fVleJDKy1lsk/E4L2ZMpUIHQ=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://nwyn-07.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://nwyn-07.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://nwyn-07.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://nwyn-07.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://nwyn-07.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/async-javascript/">
+<link rel="alternate" hreflang="en" href="https://nwyn-07.github.io/posts/async-javascript/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,7 +55,70 @@
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:url" content="https://nwyn-07.github.io/posts/async-javascript/">
+  <meta property="og:site_name" content="Blog Lập Trình Mạng">
+  <meta property="og:title" content="Async/Await và Promise trong JavaScript">
+  <meta property="og:description" content="Làm chủ lập trình bất đồng bộ với Async/Await và Promise">
+  <meta property="og:locale" content="vi-VN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-01-21T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-01-21T00:00:00+00:00">
+    <meta property="article:tag" content="Async">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Async/Await và Promise trong JavaScript">
+<meta name="twitter:description" content="Làm chủ lập trình bất đồng bộ với Async/Await và Promise">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://nwyn-07.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Async/Await và Promise trong JavaScript",
+      "item": "https://nwyn-07.github.io/posts/async-javascript/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Async/Await và Promise trong JavaScript",
+  "name": "Async\/Await và Promise trong JavaScript",
+  "description": "Làm chủ lập trình bất đồng bộ với Async/Await và Promise",
+  "keywords": [
+    "async"
+  ],
+  "articleBody": "Lập trình bất đồng bộ giúp xử lý các tác vụ mất thời gian mà không chặn luồng chính.\nPromise function getUser(userId) { return new Promise((resolve, reject) =\u003e { setTimeout(() =\u003e { if (userId) { resolve({ id: userId, name: \"John\" }); } else { reject(\"User ID is required\"); } }, 1000); }); } // Sử dụng Promise getUser(123) .then(user =\u003e console.log(\"User:\", user)) .catch(error =\u003e console.error(\"Error:\", error)); Async/Await async function fetchUserData(userId) { try { const user = await getUser(userId); const posts = await getPosts(user.id); return { user, posts }; } catch (error) { console.error(\"Failed to fetch data:\", error); throw error; } } // Sử dụng fetchUserData(123) .then(data =\u003e console.log(data)); Xử lý lỗi async function safeApiCall() { try { const result = await potentiallyFailingApi(); return { success: true, data: result }; } catch (error) { return { success: false, error: error.message }; } } Ưu điểm Code dễ đọc, dễ bảo trì\nXử lý lỗi tập trung\nHỗ trợ tốt cho API calls\n",
+  "wordCount" : "161",
+  "inLanguage": "en",
+  "datePublished": "2024-01-21T00:00:00Z",
+  "dateModified": "2024-01-21T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nwyn-07.github.io/posts/async-javascript/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blog Lập Trình Mạng",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://nwyn-07.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -73,7 +136,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Blog Lập Trình Mạng (Alt + H)">Blog Lập Trình Mạng</a>
+            <a href="https://nwyn-07.github.io/" accesskey="h" title="Blog Lập Trình Mạng (Alt + H)">Blog Lập Trình Mạng</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -99,17 +162,17 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="Home">
+                <a href="https://nwyn-07.github.io/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about/" title="AboutMe">
+                <a href="https://nwyn-07.github.io/about/" title="AboutMe">
                     <span>AboutMe</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/posts/" title="Blog">
+                <a href="https://nwyn-07.github.io/posts/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
@@ -183,14 +246,14 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/async/">Async</a></li>
+      <li><a href="https://nwyn-07.github.io/tags/async/">Async</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">Blog Lập Trình Mạng</a></span> · 
+        <span>&copy; 2025 <a href="https://nwyn-07.github.io/">Blog Lập Trình Mạng</a></span> · 
 
     <span>
         Powered by

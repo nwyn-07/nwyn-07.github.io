@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog Lập Trình Mạng</title>
-    <link>http://localhost:1313/</link>
+    <link>https://nwyn-07.github.io/</link>
     <description>Recent content on Blog Lập Trình Mạng</description>
     <generator>Hugo -- 0.152.0</generator>
     <language>vi-VN</language>
     <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nwyn-07.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Về Tôi</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://nwyn-07.github.io/about/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://nwyn-07.github.io/about/</guid>
       <description>&lt;h1 id=&#34;nguyễn-thị-như-quỳnh&#34;&gt;Nguyễn Thị Như Quỳnh&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Lập Trình Viên Frontend&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;📧 Email: nhuquynhnguyenthi709.com
@@ -26,65 +26,65 @@
     </item>
     <item>
       <title>Fetch API và AJAX - Giao tiếp với Server</title>
-      <link>http://localhost:1313/posts/fetch-api/</link>
+      <link>https://nwyn-07.github.io/posts/fetch-api/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fetch-api/</guid>
+      <guid>https://nwyn-07.github.io/posts/fetch-api/</guid>
       <description>Hướng dẫn sử dụng Fetch API để giao tiếp với server</description>
     </item>
     <item>
       <title>DOM Manipulation - Thao tác với Document Object Model</title>
-      <link>http://localhost:1313/posts/dom-manipulation/</link>
+      <link>https://nwyn-07.github.io/posts/dom-manipulation/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dom-manipulation/</guid>
+      <guid>https://nwyn-07.github.io/posts/dom-manipulation/</guid>
       <description>Hướng dẫn toàn diện về thao tác DOM với JavaScript</description>
     </item>
     <item>
       <title>Async/Await và Promise trong JavaScript</title>
-      <link>http://localhost:1313/posts/async-javascript/</link>
+      <link>https://nwyn-07.github.io/posts/async-javascript/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/async-javascript/</guid>
+      <guid>https://nwyn-07.github.io/posts/async-javascript/</guid>
       <description>Làm chủ lập trình bất đồng bộ với Async/Await và Promise</description>
     </item>
     <item>
       <title>JavaScript ES6&#43; Features - Những tính năng quan trọng</title>
-      <link>http://localhost:1313/posts/javascript-es6/</link>
+      <link>https://nwyn-07.github.io/posts/javascript-es6/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/javascript-es6/</guid>
+      <guid>https://nwyn-07.github.io/posts/javascript-es6/</guid>
       <description>Khám phá các tính năng mới trong ES6&#43;</description>
     </item>
     <item>
       <title>Lập trình mạng với Java Socket</title>
-      <link>http://localhost:1313/posts/java-socket/</link>
+      <link>https://nwyn-07.github.io/posts/java-socket/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/java-socket/</guid>
+      <guid>https://nwyn-07.github.io/posts/java-socket/</guid>
       <description>Hướng dẫn lập trình mạng sử dụng Java Socket</description>
     </item>
     <item>
       <title>Java Collections Framework - Toàn tập</title>
-      <link>http://localhost:1313/posts/java-collections/</link>
+      <link>https://nwyn-07.github.io/posts/java-collections/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/java-collections/</guid>
+      <guid>https://nwyn-07.github.io/posts/java-collections/</guid>
       <description>Khám phá Java Collections Framework từ cơ bản đến nâng cao</description>
     </item>
     <item>
       <title>Xử lý Exception và Debug trong Java</title>
-      <link>http://localhost:1313/posts/exception-handling/</link>
+      <link>https://nwyn-07.github.io/posts/exception-handling/</link>
       <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/exception-handling/</guid>
+      <guid>https://nwyn-07.github.io/posts/exception-handling/</guid>
       <description>Hướng dẫn xử lý lỗi và debug trong Java</description>
     </item>
     <item>
       <title>OOP trong Java - Cơ bản đến nâng cao</title>
-      <link>http://localhost:1313/posts/oop-java/</link>
+      <link>https://nwyn-07.github.io/posts/oop-java/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/oop-java/</guid>
+      <guid>https://nwyn-07.github.io/posts/oop-java/</guid>
       <description>Tìm hiểu về Lập trình Hướng Đối tượng trong Java</description>
     </item>
     <item>
       <title>Giới thiệu Java và JVM</title>
-      <link>http://localhost:1313/posts/java-introduce/</link>
+      <link>https://nwyn-07.github.io/posts/java-introduce/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/java-introduce/</guid>
+      <guid>https://nwyn-07.github.io/posts/java-introduce/</guid>
       <description>Tìm hiểu về ngôn ngữ Java và Java Virtual Machine</description>
     </item>
   </channel>
