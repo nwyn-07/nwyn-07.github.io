@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Dự Án on Blog Lập Trình Mạng</title>
-    <link>http://localhost:1313/projects/</link>
-    <description>Recent content in Dự Án on Blog Lập Trình Mạng</description>
-    <generator>Hugo -- 0.152.0</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>http://localhost:1313/projects/student-management-system/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/student-management-system/</guid>
-      <description></description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Dự Án on Blog Lập Trình Mạng</title><link>https://nwyn-07.github.io/projects/</link><description>Recent content in Dự Án on Blog Lập Trình Mạng</description><generator>Hugo -- 0.152.0</generator><language>en-us</language><atom:link href="https://nwyn-07.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://nwyn-07.github.io/projects/student-management-system/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nwyn-07.github.io/projects/student-management-system/</guid><description/></item></channel></rss>
