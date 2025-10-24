@@ -5,6 +5,9 @@ draft: false
 categories: ["JavaScript"]
 tags: ["api"]
 description: "Hướng dẫn sử dụng Fetch API để giao tiếp với server"
+cover:
+  image: "images/fetch.png"
+  alt: "Fetch API"
 ---
 
 Fetch API cung cấp interface hiện đại để thực hiện HTTP requests.

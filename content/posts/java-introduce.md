@@ -5,6 +5,9 @@ draft: false
 categories: ["Java"]
 tags: ["java-basics", "jvm", "beginner"]
 description: "Tìm hiểu về ngôn ngữ Java và Java Virtual Machine"
+cover:
+  image: "images/introduction.jpg"
+  alt: "Java Introduction"
 ---
 
 Java là ngôn ngữ lập trình hướng đối tượng, được phát triển bởi Sun Microsystems.

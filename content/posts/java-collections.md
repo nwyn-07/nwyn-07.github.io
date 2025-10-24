@@ -5,6 +5,9 @@ draft: false
 categories: ["Java"]
 tags: ["collections", "data-structures", "framework"]
 description: "Khám phá Java Collections Framework từ cơ bản đến nâng cao"
+cover:
+  image: "images/java-collection.png"
+  alt: "Java Collection Framework"
 ---
 
 Collections Framework cung cấp các cấu trúc dữ liệu để lưu trữ và xử lý nhóm đối tượng.

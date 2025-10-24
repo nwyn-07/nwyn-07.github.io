@@ -5,6 +5,9 @@ draft: false
 categories: ["Java"]
 tags: ["socket", "networking", "tcp", "udp"]
 description: "Hướng dẫn lập trình mạng sử dụng Java Socket"
+cover:
+  image: "images/Socket-Programming.jpg"
+  alt: "Socket Progamming"
 ---
 
 Socket programming cho phép các ứng dụng giao tiếp qua mạng sử dụng TCP/IP.

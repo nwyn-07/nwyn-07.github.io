@@ -5,6 +5,9 @@ draft: false
 categories: ["JavaScript"]
 tags: ["es6"]
 description: "Khám phá các tính năng mới trong ES6+"
+cover:
+  image: "images/es6.jpg"
+  alt: "JavaScript ES6"
 ---
 
 ES6 (ECMAScript 2015) mang đến nhiều tính năng hiện đại giúp code JavaScript ngắn gọn và mạnh mẽ hơn.

@@ -5,6 +5,9 @@ draft: false
 categories: ["Java"]
 tags: ["oop", "java", "object-oriented"]
 description: "Tìm hiểu về Lập trình Hướng Đối tượng trong Java"
+cover:
+  image: "images/oop.jpg"
+  alt: "Java OOP"
 ---
 
 Lập trình Hướng Đối tượng (OOP) là phương pháp lập trình dựa trên các đối tượng.

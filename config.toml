@@ -1,22 +1,30 @@
 baseURL = "https://nwyn-07.github.io/"
-languageCode = "vi-VN"
+languageCode = "en-us"
 title = "Blog Lập Trình Mạng"
 theme = "PaperMod"
 
 [params]
-  description = "Blog chia sẻ kiến thức Java & JavaScript"
-  defaultTheme = "auto"
+  description = "Blog chia sẻ kiến thức lập trình mạng"
+  customCSS = ["css/custom.css"]  # ✅ Đặt đúng vị trí trong params
 
+# =============================
+# MENU — phải nằm ngoài params
+# =============================
 [menu]
   [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
-  [[menu.main]]
-    name = "AboutMe"
-    url = "/about/"
-    weight = 2
+
   [[menu.main]]
     name = "Blog"
     url = "/posts/"
+    weight = 2
+ [[menu.main]]
+    name = "Dự án"
+    url = "/projects/"
     weight = 3
+  [[menu.main]]
+    name = "About Me"
+    url = "/about/"
+    weight = 4

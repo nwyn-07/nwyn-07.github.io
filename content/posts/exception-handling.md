@@ -5,6 +5,9 @@ draft: false
 categories: ["Java"]
 tags: ["exception", "debug", "error-handling"]
 description: "Hướng dẫn xử lý lỗi và debug trong Java"
+cover:
+  image: "images/exception_handling.jpg"
+  alt: "Exception Handling"
 ---
 
 Xử lý ngoại lệ là kỹ năng quan trọng giúp ứng dụng chạy ổn định và dễ bảo trì.

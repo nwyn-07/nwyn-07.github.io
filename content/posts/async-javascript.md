@@ -5,6 +5,9 @@ draft: false
 categories: ["JavaScript"]
 tags: ["async"]
 description: "Làm chủ lập trình bất đồng bộ với Async/Await và Promise"
+cover:
+  image: "images/async.jpg"
+  alt: "Async Await illustration"
 ---
 
 Lập trình bất đồng bộ giúp xử lý các tác vụ mất thời gian mà không chặn luồng chính.

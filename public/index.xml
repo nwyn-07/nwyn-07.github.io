@@ -1,91 +1,529 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Home on Blog Lập Trình Mạng</title>
-    <link>https://nwyn-07.github.io/</link>
-    <description>Recent content in Home on Blog Lập Trình Mạng</description>
+    <title>Blog Lập Trình Mạng</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Blog Lập Trình Mạng</description>
     <generator>Hugo -- 0.152.0</generator>
-    <language>vi-VN</language>
-    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nwyn-07.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Về Tôi</title>
-      <link>https://nwyn-07.github.io/about/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://nwyn-07.github.io/about/</guid>
-      <description>&lt;h1 id=&#34;nguyễn-thị-như-quỳnh&#34;&gt;Nguyễn Thị Như Quỳnh&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Lập Trình Viên Frontend&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;📧 Email: nhuquynhnguyenthi709.com
-💻 GitHub: github.com/nwyn-07&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
-&lt;p&gt;Tôi là sinh viên Công nghệ Thông tin với niềm đam mê lập trình và sáng tạo. Blog này là nơi tôi chia sẻ kiến thức và kinh nghiệm về Java và JavaScript thông qua các dự án thực tế.&lt;/p&gt;
-&lt;h2 id=&#34;học-vấn&#34;&gt;Học vấn&lt;/h2&gt;
-&lt;p&gt;Đại học Công nghệ Thành phố Hồ Chí Minh&lt;/p&gt;
-&lt;p&gt;Chuyên ngành: Công nghệ phần mềm&lt;/p&gt;</description>
-    </item>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fetch API và AJAX - Giao tiếp với Server</title>
-      <link>https://nwyn-07.github.io/posts/fetch-api/</link>
+      <link>http://localhost:1313/posts/fetch-api/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://nwyn-07.github.io/posts/fetch-api/</guid>
+      <guid>http://localhost:1313/posts/fetch-api/</guid>
       <description>Hướng dẫn sử dụng Fetch API để giao tiếp với server</description>
     </item>
     <item>
       <title>DOM Manipulation - Thao tác với Document Object Model</title>
-      <link>https://nwyn-07.github.io/posts/dom-manipulation/</link>
+      <link>http://localhost:1313/posts/dom-manipulation/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://nwyn-07.github.io/posts/dom-manipulation/</guid>
+      <guid>http://localhost:1313/posts/dom-manipulation/</guid>
       <description>Hướng dẫn toàn diện về thao tác DOM với JavaScript</description>
     </item>
     <item>
       <title>Async/Await và Promise trong JavaScript</title>
-      <link>https://nwyn-07.github.io/posts/async-javascript/</link>
+      <link>http://localhost:1313/posts/async-javascript/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://nwyn-07.github.io/posts/async-javascript/</guid>
+      <guid>http://localhost:1313/posts/async-javascript/</guid>
       <description>Làm chủ lập trình bất đồng bộ với Async/Await và Promise</description>
     </item>
     <item>
       <title>JavaScript ES6&#43; Features - Những tính năng quan trọng</title>
-      <link>https://nwyn-07.github.io/posts/javascript-es6/</link>
+      <link>http://localhost:1313/posts/javascript-es6/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://nwyn-07.github.io/posts/javascript-es6/</guid>
+      <guid>http://localhost:1313/posts/javascript-es6/</guid>
       <description>Khám phá các tính năng mới trong ES6&#43;</description>
     </item>
     <item>
       <title>Lập trình mạng với Java Socket</title>
-      <link>https://nwyn-07.github.io/posts/java-socket/</link>
+      <link>http://localhost:1313/posts/java-socket/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://nwyn-07.github.io/posts/java-socket/</guid>
+      <guid>http://localhost:1313/posts/java-socket/</guid>
       <description>Hướng dẫn lập trình mạng sử dụng Java Socket</description>
     </item>
     <item>
       <title>Java Collections Framework - Toàn tập</title>
-      <link>https://nwyn-07.github.io/posts/java-collections/</link>
+      <link>http://localhost:1313/posts/java-collections/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://nwyn-07.github.io/posts/java-collections/</guid>
+      <guid>http://localhost:1313/posts/java-collections/</guid>
       <description>Khám phá Java Collections Framework từ cơ bản đến nâng cao</description>
     </item>
     <item>
       <title>Xử lý Exception và Debug trong Java</title>
-      <link>https://nwyn-07.github.io/posts/exception-handling/</link>
+      <link>http://localhost:1313/posts/exception-handling/</link>
       <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://nwyn-07.github.io/posts/exception-handling/</guid>
+      <guid>http://localhost:1313/posts/exception-handling/</guid>
       <description>Hướng dẫn xử lý lỗi và debug trong Java</description>
     </item>
     <item>
       <title>OOP trong Java - Cơ bản đến nâng cao</title>
-      <link>https://nwyn-07.github.io/posts/oop-java/</link>
+      <link>http://localhost:1313/posts/oop-java/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://nwyn-07.github.io/posts/oop-java/</guid>
+      <guid>http://localhost:1313/posts/oop-java/</guid>
       <description>Tìm hiểu về Lập trình Hướng Đối tượng trong Java</description>
     </item>
     <item>
       <title>Giới thiệu Java và JVM</title>
-      <link>https://nwyn-07.github.io/posts/java-introduce/</link>
+      <link>http://localhost:1313/posts/java-introduce/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://nwyn-07.github.io/posts/java-introduce/</guid>
+      <guid>http://localhost:1313/posts/java-introduce/</guid>
       <description>Tìm hiểu về ngôn ngữ Java và Java Virtual Machine</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;vi&#34;&gt;
+&lt;head&gt;
+    &lt;meta charset=&#34;UTF-8&#34;&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+    &lt;title&gt;Về Tôi - Nguyễn Thị Như Quỳnh&lt;/title&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css&#34;&gt;
+    &lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: &#39;Segoe UI&#39;, Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --primary-color: #667eea;
+            --primary-dark: #5a6fd8;
+            --secondary-color: #764ba2;
+            --accent-color: #f093fb;
+            --text-color: #2d3748;
+            --text-light: #718096;
+            --bg-light: #f7fafc;
+            --white: #ffffff;
+            --gray-100: #f7fafc;
+            --gray-200: #edf2f7;
+            --shadow: 0 10px 30px rgba(0,0,0,0.1);
+            --shadow-lg: 0 20px 50px rgba(0,0,0,0.15);
+            --success: #48bb78;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .about-header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 100px 0 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about-header::before {
+            content: &#39;&#39;;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url(&#39;data:image/svg+xml,&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 1440 320&#34;&gt;&lt;path fill=&#34;%23ffffff&#34; fill-opacity=&#34;0.1&#34; d=&#34;M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,213.3C672,192,768,128,864,128C960,128,1056,192,1152,192C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#39;);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .profile-container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .profile-image {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            margin: 0 auto 25px;
+            background: linear-gradient(135deg, var(--accent-color) 0%, #f5576c 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 70px;
+            color: white;
+        }
+
+        .profile-title {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .profile-subtitle {
+            font-size: 1.4rem;
+            margin-bottom: 25px;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+        }
+
+        .contact-item i {
+            font-size: 1.2rem;
+        }
+
+        /* Main Content */
+        .about-content {
+            padding: 80px 0;
+        }
+
+        .section {
+            background: var(--white);
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s ease;
+            border: 1px solid var(--gray-200);
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title i {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Introduction */
+        .intro-text {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        /* Education */
+        .education-item {
+            display: flex;
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .education-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+
+        .education-details h3 {
+            font-size: 1.3rem;
+            margin-bottom: 5px;
+            color: var(--text-color);
+        }
+
+        .education-meta {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 8px;
+            color: var(--text-light);
+        }
+
+        .gpa-badge {
+            background: var(--success);
+            color: white;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        /* Skills */
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .skill-category h3 {
+            margin-bottom: 15px;
+            color: var(--text-color);
+            font-size: 1.3rem;
+        }
+
+        .skill-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: var(--gray-100);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: var(--text-color);
+            transition: all 0.3s ease;
+            border: 1px solid var(--gray-200);
+        }
+
+        .skill-tag:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        /* Projects */
+        .project-card {
+            border-left: 4px solid var(--primary-color);
+            padding: 25px;
+            background: var(--gray-100);
+            border-radius: 0 10px 10px 0;
+            margin-bottom: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateX(5px);
+            box-shadow: var(--shadow);
+        }
+
+        .project-title {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: var(--text-color);
+        }
+
+        .project-tech {
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .project-features {
+            margin: 15px 0;
+        }
+
+        .project-features h4 {
+            margin-bottom: 10px;
+            color: var(--text-color);
+        }
+
+        .feature-list {
+            list-style-type: none;
+        }
+
+        .feature-list li {
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 20px;
+            color: var(--text-light);
+        }
+
+        .feature-list li:before {
+            content: &#39;▹&#39;;
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+        }
+
+        /* Certificates */
+        .certificates-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .certificate-card {
+            background: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+            border: 1px solid var(--gray-200);
+        }
+
+        .certificate-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .certificate-image {
+            height: 200px;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+        }
+
+        .certificate-content {
+            padding: 20px;
+        }
+
+        .certificate-title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: var(--text-color);
+        }
+
+        .certificate-org {
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .certificate-date {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        /* Contact */
+        .contact-actions {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .contact-btn.outline {
+            background: transparent;
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .contact-btn.outline:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        /* Footer */
+        .about-footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-light);
+            font-style: italic;
+            border-top: 1px solid var(--gray-200);
+            margin-top: 40px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .profile-title {
+                font-size: 2.2rem;
+            }
+            
+            .profile-subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+            
+            .section {
+                padding: 25px;
+            }
+            
+            .education-item {
+                flex-direction: column;
+            }
+            
+            .education-icon {
+                margin-bottom: 15px;
+            }
+            
+            .education-meta {
+                flex-direction: column;
+                gap: 5px;
+            }
+            
+            .contact-actions {
+                justify-content: center;
+            }
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header class=&#34;about-header&#34;&gt;
+        &lt;div class=&#34;container profile-container&#34;&gt;
+            &lt;div class=&#34;profile-image&#34;&gt;
+                &lt;i class=&#34;fas fa-user&#34;&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;h1 class=&#34;profile-title&#34;&gt;Nguyễn Thị Như Quỳnh&lt;/h1&gt;
+            &lt;p class=&#34;profile-subtitle&#34;&gt;Lập Trình Viên Frontend&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/projects/student-management-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/student-management-system/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

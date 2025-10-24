@@ -5,6 +5,9 @@ draft: false
 categories: ["JavaScript"]
 tags: ["dom"]
 description: "Hướng dẫn toàn diện về thao tác DOM với JavaScript"
+cover:
+  image: "images/dom.jpg"
+  alt: "Dom Manipulation"
 ---
 
 DOM (Document Object Model) là giao diện lập trình cho HTML documents.
