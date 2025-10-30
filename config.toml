@@ -10,21 +10,4 @@ theme = "PaperMod"
 # =============================
 # MENU — phải nằm ngoài params
 # =============================
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
 
-  [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
-    weight = 2
- [[menu.main]]
-    name = "Dự án"
-    url = "/projects/"
-    weight = 3
-  [[menu.main]]
-    name = "About Me"
-    url = "/about/"
-    weight = 4

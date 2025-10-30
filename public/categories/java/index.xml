@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Java on Blog Lập Trình Mạng</title><link>https://nwyn-07.github.io/categories/java/</link><description>Recent content in Java on Blog Lập Trình Mạng</description><generator>Hugo -- 0.152.0</generator><language>en-us</language><lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nwyn-07.github.io/categories/java/index.xml" rel="self" type="application/rss+xml"/><item><title>Lập trình mạng với Java Socket</title><link>https://nwyn-07.github.io/posts/java-socket/</link><pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate><guid>https://nwyn-07.github.io/posts/java-socket/</guid><description>Hướng dẫn lập trình mạng sử dụng Java Socket</description></item><item><title>Java Collections Framework - Toàn tập</title><link>https://nwyn-07.github.io/posts/java-collections/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>https://nwyn-07.github.io/posts/java-collections/</guid><description>Khám phá Java Collections Framework từ cơ bản đến nâng cao</description></item><item><title>Xử lý Exception và Debug trong Java</title><link>https://nwyn-07.github.io/posts/exception-handling/</link><pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate><guid>https://nwyn-07.github.io/posts/exception-handling/</guid><description>Hướng dẫn xử lý lỗi và debug trong Java</description></item><item><title>OOP trong Java - Cơ bản đến nâng cao</title><link>https://nwyn-07.github.io/posts/oop-java/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><guid>https://nwyn-07.github.io/posts/oop-java/</guid><description>Tìm hiểu về Lập trình Hướng Đối tượng trong Java</description></item><item><title>Giới thiệu Java và JVM</title><link>https://nwyn-07.github.io/posts/java-introduce/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>https://nwyn-07.github.io/posts/java-introduce/</guid><description>Tìm hiểu về ngôn ngữ Java và Java Virtual Machine</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java on Blog Lập Trình Mạng</title>
+    <link>http://localhost:1313/categories/java/</link>
+    <description>Recent content in Java on Blog Lập Trình Mạng</description>
+    <generator>Hugo -- 0.152.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lập trình mạng với Java Socket</title>
+      <link>http://localhost:1313/posts/java-socket/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-socket/</guid>
+      <description>Hướng dẫn lập trình mạng sử dụng Java Socket</description>
+    </item>
+    <item>
+      <title>Java Collections Framework - Toàn tập</title>
+      <link>http://localhost:1313/posts/java-collections/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-collections/</guid>
+      <description>Khám phá Java Collections Framework từ cơ bản đến nâng cao</description>
+    </item>
+    <item>
+      <title>Xử lý Exception và Debug trong Java</title>
+      <link>http://localhost:1313/posts/exception-handling/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/exception-handling/</guid>
+      <description>Hướng dẫn xử lý lỗi và debug trong Java</description>
+    </item>
+    <item>
+      <title>OOP trong Java - Cơ bản đến nâng cao</title>
+      <link>http://localhost:1313/posts/oop-java/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/oop-java/</guid>
+      <description>Tìm hiểu về Lập trình Hướng Đối tượng trong Java</description>
+    </item>
+    <item>
+      <title>Giới thiệu Java và JVM</title>
+      <link>http://localhost:1313/posts/java-introduce/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-introduce/</guid>
+      <description>Tìm hiểu về ngôn ngữ Java và Java Virtual Machine</description>
+    </item>
+  </channel>
+</rss>

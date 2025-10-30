@@ -1,37 +1,685 @@
-<!doctype html><html lang=vi><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Blog Lập Trình Mạng</title><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css><style>:root{--primary:#3b82f6;--secondary:#6b7280;--accent:#8b5cf6;--background:#ffffff;--surface:#f8fafc;--border:#e2e8f0;--text:#1f2937;--text-light:#6b7280;--shadow:0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);--shadow-lg:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)}*{margin:0;padding:0;box-sizing:border-box}body{font-family:inter,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,sans-serif;line-height:1.6;color:var(--text);background-color:var(--surface);padding:2rem}.page-content{max-width:1200px;margin:0 auto}.page-header{text-align:center;margin-bottom:3rem}.page-title{font-size:2.5rem;font-weight:700;margin-bottom:.5rem;color:var(--text)}.page-subtitle{font-size:1.1rem;color:var(--text-light);max-width:600px;margin:0 auto}.posts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:2rem}.post-card{background:var(--background);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);transition:all .3s ease;display:flex;flex-direction:column;height:100%}.post-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg)}.post-card__image{position:relative;height:200px;overflow:hidden}.post-card__image img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}.post-card:hover .post-card__image img{transform:scale(1.05)}.post-card__category{position:absolute;top:1rem;left:1rem;background:rgba(255,255,255,.9);color:var(--primary);padding:.3rem .8rem;border-radius:20px;font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.5px}.post-card__content{padding:1.5rem;flex-grow:1;display:flex;flex-direction:column}.post-card__header{margin-bottom:1rem}.post-card__title{font-size:1.25rem;font-weight:700;line-height:1.4;margin-bottom:.75rem;color:var(--text);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.post-card__title a{color:inherit;text-decoration:none;transition:color .3s ease}.post-card__title a:hover{color:var(--primary)}.post-card__excerpt{color:var(--text-light);font-size:.9rem;line-height:1.5;margin-bottom:1rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.post-card__meta{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:1rem;border-top:1px solid var(--border)}.post-card__date{display:flex;align-items:center;gap:.5rem;font-size:.8rem;color:var(--text-light)}.post-card__reading-time{display:flex;align-items:center;gap:.5rem;font-size:.8rem;color:var(--text-light)}.post-card__footer{display:flex;justify-content:space-between;align-items:center;margin-top:1rem}.post-card__read-more{display:inline-flex;align-items:center;gap:.5rem;background:var(--primary);color:#fff;padding:.5rem 1rem;border-radius:6px;font-size:.85rem;font-weight:500;text-decoration:none;transition:all .3s ease}.post-card__read-more:hover{background:var(--accent);transform:translateY(-2px);box-shadow:0 4px 8px rgba(0,0,0,.1)}.post-card__tags{display:flex;gap:.5rem}.post-card__tag{background:var(--surface);color:var(--text-light);padding:.3rem .6rem;border-radius:4px;font-size:.7rem;border:1px solid var(--border)}@media(max-width:768px){body{padding:1rem}.posts-grid{grid-template-columns:1fr;gap:1.5rem}.page-title{font-size:2rem}}@media(max-width:480px){.post-card__content{padding:1rem}.post-card__footer{flex-direction:column;align-items:flex-start;gap:1rem}.post-card__read-more{width:100%;justify-content:center}}@keyframes fadeInUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.post-card{animation:fadeInUp .5s ease-out}.post-card:nth-child(2){animation-delay:.1s}.post-card:nth-child(3){animation-delay:.2s}.post-card:nth-child(4){animation-delay:.3s}.post-card:nth-child(5){animation-delay:.4s}.post-card:nth-child(6){animation-delay:.5s}.post-card:nth-child(7){animation-delay:.6s}.post-card:nth-child(8){animation-delay:.7s}.post-card:nth-child(9){animation-delay:.8s}</style></head><body><div class=page-content><header class=page-header><h1 class=page-title>Blog Lập Trình Mạng</h1><p class=page-subtitle>Khám phá những bài viết về lập trình mạng, Java, JavaScript và các công nghệ web hiện đại</p></header><div class=posts-grid><article class=post-card><div class=post-card__image><img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Java Introduction"><div class=post-card__category>Java</div></div><div class=post-card__content><header class=post-card__header><h2 class=post-card__title><a href=java-intro>Giới thiệu về Java</a></h2><p class=post-card__excerpt>Tìm hiểu về ngôn ngữ lập trình Java, lịch sử phát triển và những tính năng nổi bật.</p></header><div class=post-card__meta><div class=post-card__date><i class="far fa-calendar"></i>
-<span>15 Tháng 6, 2023</span></div><div class=post-card__reading-time><i class="far fa-clock"></i>
-<span>8 phút đọc</span></div></div><footer class=post-card__footer><a href=java-introduce class=post-card__read-more>Đọc tiếp
-<i class="fas fa-arrow-right"></i></a><div class=post-card__tags><span class=post-card__tag>#Java</span>
-<span class=post-card__tag>#Lập trình</span></div></footer></div></article><article class=post-card><div class=post-card__image><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="OOP Java"><div class=post-card__category>Java</div></div><div class=post-card__content><header class=post-card__header><h2 class=post-card__title><a href=oop-java>Lập trình hướng đối tượng trong Java</a></h2><p class=post-card__excerpt>Khám phá các nguyên lý OOP trong Java: tính đóng gói, kế thừa, đa hình và trừu tượng.</p></header><div class=post-card__meta><div class=post-card__date><i class="far fa-calendar"></i>
-<span>12 Tháng 6, 2023</span></div><div class=post-card__reading-time><i class="far fa-clock"></i>
-<span>12 phút đọc</span></div></div><footer class=post-card__footer><a href=oop-java class=post-card__read-more>Đọc tiếp
-<i class="fas fa-arrow-right"></i></a><div class=post-card__tags><span class=post-card__tag>#Java</span>
-<span class=post-card__tag>#OOP</span></div></footer></div></article><article class=post-card><div class=post-card__image><img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Java Collections"><div class=post-card__category>Java</div></div><div class=post-card__content><header class=post-card__header><h2 class=post-card__title><a href=java-collections>Java Collections Framework</a></h2><p class=post-card__excerpt>Tìm hiểu về Collections Framework trong Java: List, Set, Map và cách sử dụng hiệu quả.</p></header><div class=post-card__meta><div class=post-card__date><i class="far fa-calendar"></i>
-<span>10 Tháng 6, 2023</span></div><div class=post-card__reading-time><i class="far fa-clock"></i>
-<span>10 phút đọc</span></div></div><footer class=post-card__footer><a href=java-collections class=post-card__read-more>Đọc tiếp
-<i class="fas fa-arrow-right"></i></a><div class=post-card__tags><span class=post-card__tag>#Java</span>
-<span class=post-card__tag>#Collections</span></div></footer></div></article><article class=post-card><div class=post-card__image><img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Exception Handling"><div class=post-card__category>Java</div></div><div class=post-card__content><header class=post-card__header><h2 class=post-card__title><a href=exception-handling>Xử lý ngoại lệ trong Java</a></h2><p class=post-card__excerpt>Hướng dẫn chi tiết về xử lý ngoại lệ trong Java: try-catch, throw, throws và custom exception.</p></header><div class=post-card__meta><div class=post-card__date><i class="far fa-calendar"></i>
-<span>8 Tháng 6, 2023</span></div><div class=post-card__reading-time><i class="far fa-clock"></i>
-<span>9 phút đọc</span></div></div><footer class=post-card__footer><a href=exception-handling class=post-card__read-more>Đọc tiếp
-<i class="fas fa-arrow-right"></i></a><div class=post-card__tags><span class=post-card__tag>#Java</span>
-<span class=post-card__tag>#Exception</span></div></footer></div></article><article class=post-card><div class=post-card__image><img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Java Socket"><div class=post-card__category>Java</div></div><div class=post-card__content><header class=post-card__header><h2 class=post-card__title><a href=java-socket>Lập trình mạng với Java Socket</a></h2><p class=post-card__excerpt>Tìm hiểu về lập trình mạng sử dụng Java Socket để xây dựng ứng dụng client-server.</p></header><div class=post-card__meta><div class=post-card__date><i class="far fa-calendar"></i>
-<span>5 Tháng 6, 2023</span></div><div class=post-card__reading-time><i class="far fa-clock"></i>
-<span>11 phút đọc</span></div></div><footer class=post-card__footer><a href=java-socket class=post-card__read-more>Đọc tiếp
-<i class="fas fa-arrow-right"></i></a><div class=post-card__tags><span class=post-card__tag>#Java</span>
-<span class=post-card__tag>#Socket</span></div></footer></div></article><article class=post-card><div class=post-card__image><img src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Async JavaScript"><div class=post-card__category>JavaScript</div></div><div class=post-card__content><header class=post-card__header><h2 class=post-card__title><a href=async-javascript>Lập trình bất đồng bộ trong JavaScript</a></h2><p class=post-card__excerpt>Khám phá callback, Promise, async/await và cách xử lý bất đồng bộ trong JavaScript.</p></header><div class=post-card__meta><div class=post-card__date><i class="far fa-calendar"></i>
-<span>3 Tháng 6, 2023</span></div><div class=post-card__reading-time><i class="far fa-clock"></i>
-<span>10 phút đọc</span></div></div><footer class=post-card__footer><a href=async-javascript class=post-card__read-more>Đọc tiếp
-<i class="fas fa-arrow-right"></i></a><div class=post-card__tags><span class=post-card__tag>#JavaScript</span>
-<span class=post-card__tag>#Async</span></div></footer></div></article><article class=post-card><div class=post-card__image><img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="DOM Manipulation"><div class=post-card__category>JavaScript</div></div><div class=post-card__content><header class=post-card__header><h2 class=post-card__title><a href=dom-manipulation>Thao tác với DOM trong JavaScript</a></h2><p class=post-card__excerpt>Hướng dẫn cách thao tác với Document Object Model (DOM) để tạo trang web động.</p></header><div class=post-card__meta><div class=post-card__date><i class="far fa-calendar"></i>
-<span>1 Tháng 6, 2023</span></div><div class=post-card__reading-time><i class="far fa-clock"></i>
-<span>7 phút đọc</span></div></div><footer class=post-card__footer><a href=dom-manipulation class=post-card__read-more>Đọc tiếp
-<i class="fas fa-arrow-right"></i></a><div class=post-card__tags><span class=post-card__tag>#JavaScript</span>
-<span class=post-card__tag>#DOM</span></div></footer></div></article><article class=post-card><div class=post-card__image><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Fetch API"><div class=post-card__category>JavaScript</div></div><div class=post-card__content><header class=post-card__header><h2 class=post-card__title><a href=fetch-api>Làm việc với Fetch API</a></h2><p class=post-card__excerpt>Tìm hiểu cách sử dụng Fetch API để thực hiện các yêu cầu HTTP và xử lý dữ liệu từ server.</p></header><div class=post-card__meta><div class=post-card__date><i class="far fa-calendar"></i>
-<span>28 Tháng 5, 2023</span></div><div class=post-card__reading-time><i class="far fa-clock"></i>
-<span>8 phút đọc</span></div></div><footer class=post-card__footer><a href=fetch-api class=post-card__read-more>Đọc tiếp
-<i class="fas fa-arrow-right"></i></a><div class=post-card__tags><span class=post-card__tag>#JavaScript</span>
-<span class=post-card__tag>#API</span></div></footer></div></article><article class=post-card><div class=post-card__image><img src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="JavaScript Basics"><div class=post-card__category>JavaScript</div></div><div class=post-card__content><header class=post-card__header><h2 class=post-card__title><a href=javascript-es6>JavaScript ES6+ Features - Những tính năng quan trọng</a></h2><p class=post-card__excerpt>Khám phá các tính năng mới trong ES6+</p></header><div class=post-card__meta><div class=post-card__date><i class="far fa-calendar"></i>
-<span>25 Tháng 5, 2023</span></div><div class=post-card__reading-time><i class="far fa-clock"></i>
-<span>6 phút đọc</span></div></div><footer class=post-card__footer><a href=javascript-es6 class=post-card__read-more>Đọc tiếp
-<i class="fas fa-arrow-right"></i></a><div class=post-card__tags><span class=post-card__tag>#JavaScript</span>
-<span class=post-card__tag>#ES6</span></div></footer></div></article></div></div></body></html>
+<!DOCTYPE html>
+<html lang="vi">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Lập Trình Mạng</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #3b82f6;
+            --secondary: #6b7280;
+            --accent: #8b5cf6;
+            --background: #ffffff;
+            --surface: #f8fafc;
+            --border: #e2e8f0;
+            --text: #1f2937;
+            --text-light: #6b7280;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--surface);
+            padding: 2rem;
+        }
+
+        .page-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .page-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .page-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+         
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+         
+        .post-card {
+            background: var(--background);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .post-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+         
+        .post-card__image {
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .post-card__image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .post-card:hover .post-card__image img {
+            transform: scale(1.05);
+        }
+
+        .post-card__category {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: rgba(255, 255, 255, 0.9);
+            color: var(--primary);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+         
+        .post-card__content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .post-card__header {
+            margin-bottom: 1rem;
+        }
+
+        .post-card__title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 0.75rem;
+            color: var(--text);
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .post-card__title a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .post-card__title a:hover {
+            color: var(--primary);
+        }
+
+        .post-card__excerpt {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+         
+        .post-card__meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .post-card__date {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.8rem;
+            color: var(--text-light);
+        }
+
+        .post-card__reading-time {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.8rem;
+            color: var(--text-light);
+        }
+
+        .post-card__footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
+        }
+
+        .post-card__read-more {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--primary);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .post-card__read-more:hover {
+            background: var(--accent);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .post-card__tags {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .post-card__tag {
+            background: var(--surface);
+            color: var(--text-light);
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            border: 1px solid var(--border);
+        }
+
+         
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+            
+            .posts-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .page-title {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .post-card__content {
+                padding: 1rem;
+            }
+            
+            .post-card__footer {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+            
+            .post-card__read-more {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+         
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .post-card {
+            animation: fadeInUp 0.5s ease-out;
+        }
+
+        .post-card:nth-child(2) {
+            animation-delay: 0.1s;
+        }
+
+        .post-card:nth-child(3) {
+            animation-delay: 0.2s;
+        }
+        .post-card:nth-child(4) {
+            animation-delay: 0.3s;
+        }
+        .post-card:nth-child(5) {
+            animation-delay: 0.4s;
+        }
+        .post-card:nth-child(6) {
+            animation-delay: 0.5s;
+        }
+        .post-card:nth-child(7) {
+            animation-delay: 0.6s;
+        }
+        .post-card:nth-child(8) {
+            animation-delay: 0.7s;
+        }
+        .post-card:nth-child(9) {
+            animation-delay: 0.8s;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="page-content">
+        <header class="page-header">
+            <h1 class="page-title">Blog Lập Trình Mạng</h1>
+            <p class="page-subtitle">Khám phá những bài viết về lập trình mạng, Java, JavaScript và các công nghệ web hiện đại</p>
+        </header>
+
+        <div class="posts-grid">
+            
+            <article class="post-card">
+                <div class="post-card__image">
+                    <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Java Introduction">
+                    <div class="post-card__category">Java</div>
+                </div>
+                
+                <div class="post-card__content">
+                    <header class="post-card__header">
+                        <h2 class="post-card__title">
+                            <a href="java-intro">Giới thiệu về Java</a>
+                        </h2>
+                        <p class="post-card__excerpt">
+                            Tìm hiểu về ngôn ngữ lập trình Java, lịch sử phát triển và những tính năng nổi bật.
+                        </p>
+                    </header>
+                    
+                    <div class="post-card__meta">
+                        <div class="post-card__date">
+                            <i class="far fa-calendar"></i>
+                            <span>15 Tháng 6, 2023</span>
+                        </div>
+                        <div class="post-card__reading-time">
+                            <i class="far fa-clock"></i>
+                            <span>8 phút đọc</span>
+                        </div>
+                    </div>
+                    
+                    <footer class="post-card__footer">
+                        <a href="java-introduce" class="post-card__read-more">
+                            Đọc tiếp
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="post-card__tags">
+                            <span class="post-card__tag">#Java</span>
+                            <span class="post-card__tag">#Lập trình</span>
+                        </div>
+                    </footer>
+                </div>
+            </article>
+
+            
+            <article class="post-card">
+                <div class="post-card__image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="OOP Java">
+                    <div class="post-card__category">Java</div>
+                </div>
+                
+                <div class="post-card__content">
+                    <header class="post-card__header">
+                        <h2 class="post-card__title">
+                            <a href="oop-java">Lập trình hướng đối tượng trong Java</a>
+                        </h2>
+                        <p class="post-card__excerpt">
+                            Khám phá các nguyên lý OOP trong Java: tính đóng gói, kế thừa, đa hình và trừu tượng.
+                        </p>
+                    </header>
+                    
+                    <div class="post-card__meta">
+                        <div class="post-card__date">
+                            <i class="far fa-calendar"></i>
+                            <span>12 Tháng 6, 2023</span>
+                        </div>
+                        <div class="post-card__reading-time">
+                            <i class="far fa-clock"></i>
+                            <span>12 phút đọc</span>
+                        </div>
+                    </div>
+                    
+                    <footer class="post-card__footer">
+                        <a href="oop-java" class="post-card__read-more">
+                            Đọc tiếp
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="post-card__tags">
+                            <span class="post-card__tag">#Java</span>
+                            <span class="post-card__tag">#OOP</span>
+                        </div>
+                    </footer>
+                </div>
+            </article>
+
+            
+            <article class="post-card">
+                <div class="post-card__image">
+                    <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Java Collections">
+                    <div class="post-card__category">Java</div>
+                </div>
+                
+                <div class="post-card__content">
+                    <header class="post-card__header">
+                        <h2 class="post-card__title">
+                            <a href="java-collections">Java Collections Framework</a>
+                        </h2>
+                        <p class="post-card__excerpt">
+                            Tìm hiểu về Collections Framework trong Java: List, Set, Map và cách sử dụng hiệu quả.
+                        </p>
+                    </header>
+                    
+                    <div class="post-card__meta">
+                        <div class="post-card__date">
+                            <i class="far fa-calendar"></i>
+                            <span>10 Tháng 6, 2023</span>
+                        </div>
+                        <div class="post-card__reading-time">
+                            <i class="far fa-clock"></i>
+                            <span>10 phút đọc</span>
+                        </div>
+                    </div>
+                    
+                    <footer class="post-card__footer">
+                        <a href="java-collections" class="post-card__read-more">
+                            Đọc tiếp
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="post-card__tags">
+                            <span class="post-card__tag">#Java</span>
+                            <span class="post-card__tag">#Collections</span>
+                        </div>
+                    </footer>
+                </div>
+            </article>
+
+            
+            <article class="post-card">
+                <div class="post-card__image">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Exception Handling">
+                    <div class="post-card__category">Java</div>
+                </div>
+                
+                <div class="post-card__content">
+                    <header class="post-card__header">
+                        <h2 class="post-card__title">
+                            <a href="exception-handling">Xử lý ngoại lệ trong Java</a>
+                        </h2>
+                        <p class="post-card__excerpt">
+                            Hướng dẫn chi tiết về xử lý ngoại lệ trong Java: try-catch, throw, throws và custom exception.
+                        </p>
+                    </header>
+                    
+                    <div class="post-card__meta">
+                        <div class="post-card__date">
+                            <i class="far fa-calendar"></i>
+                            <span>8 Tháng 6, 2023</span>
+                        </div>
+                        <div class="post-card__reading-time">
+                            <i class="far fa-clock"></i>
+                            <span>9 phút đọc</span>
+                        </div>
+                    </div>
+                    
+                    <footer class="post-card__footer">
+                        <a href="exception-handling" class="post-card__read-more">
+                            Đọc tiếp
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="post-card__tags">
+                            <span class="post-card__tag">#Java</span>
+                            <span class="post-card__tag">#Exception</span>
+                        </div>
+                    </footer>
+                </div>
+            </article>
+
+            
+            <article class="post-card">
+                <div class="post-card__image">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Java Socket">
+                    <div class="post-card__category">Java</div>
+                </div>
+                
+                <div class="post-card__content">
+                    <header class="post-card__header">
+                        <h2 class="post-card__title">
+                            <a href="java-socket">Lập trình mạng với Java Socket</a>
+                        </h2>
+                        <p class="post-card__excerpt">
+                            Tìm hiểu về lập trình mạng sử dụng Java Socket để xây dựng ứng dụng client-server.
+                        </p>
+                    </header>
+                    
+                    <div class="post-card__meta">
+                        <div class="post-card__date">
+                            <i class="far fa-calendar"></i>
+                            <span>5 Tháng 6, 2023</span>
+                        </div>
+                        <div class="post-card__reading-time">
+                            <i class="far fa-clock"></i>
+                            <span>11 phút đọc</span>
+                        </div>
+                    </div>
+                    
+                    <footer class="post-card__footer">
+                        <a href="java-socket" class="post-card__read-more">
+                            Đọc tiếp
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="post-card__tags">
+                            <span class="post-card__tag">#Java</span>
+                            <span class="post-card__tag">#Socket</span>
+                        </div>
+                    </footer>
+                </div>
+            </article>
+
+            
+            <article class="post-card">
+                <div class="post-card__image">
+                    <img src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Async JavaScript">
+                    <div class="post-card__category">JavaScript</div>
+                </div>
+                
+                <div class="post-card__content">
+                    <header class="post-card__header">
+                        <h2 class="post-card__title">
+                            <a href="async-javascript">Lập trình bất đồng bộ trong JavaScript</a>
+                        </h2>
+                        <p class="post-card__excerpt">
+                            Khám phá callback, Promise, async/await và cách xử lý bất đồng bộ trong JavaScript.
+                        </p>
+                    </header>
+                    
+                    <div class="post-card__meta">
+                        <div class="post-card__date">
+                            <i class="far fa-calendar"></i>
+                            <span>3 Tháng 6, 2023</span>
+                        </div>
+                        <div class="post-card__reading-time">
+                            <i class="far fa-clock"></i>
+                            <span>10 phút đọc</span>
+                        </div>
+                    </div>
+                    
+                    <footer class="post-card__footer">
+                        <a href="async-javascript" class="post-card__read-more">
+                            Đọc tiếp
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="post-card__tags">
+                            <span class="post-card__tag">#JavaScript</span>
+                            <span class="post-card__tag">#Async</span>
+                        </div>
+                    </footer>
+                </div>
+            </article>
+
+            
+            <article class="post-card">
+                <div class="post-card__image">
+                    <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="DOM Manipulation">
+                    <div class="post-card__category">JavaScript</div>
+                </div>
+                
+                <div class="post-card__content">
+                    <header class="post-card__header">
+                        <h2 class="post-card__title">
+                            <a href="dom-manipulation">Thao tác với DOM trong JavaScript</a>
+                        </h2>
+                        <p class="post-card__excerpt">
+                            Hướng dẫn cách thao tác với Document Object Model (DOM) để tạo trang web động.
+                        </p>
+                    </header>
+                    
+                    <div class="post-card__meta">
+                        <div class="post-card__date">
+                            <i class="far fa-calendar"></i>
+                            <span>1 Tháng 6, 2023</span>
+                        </div>
+                        <div class="post-card__reading-time">
+                            <i class="far fa-clock"></i>
+                            <span>7 phút đọc</span>
+                        </div>
+                    </div>
+                    
+                    <footer class="post-card__footer">
+                        <a href="dom-manipulation" class="post-card__read-more">
+                            Đọc tiếp
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="post-card__tags">
+                            <span class="post-card__tag">#JavaScript</span>
+                            <span class="post-card__tag">#DOM</span>
+                        </div>
+                    </footer>
+                </div>
+            </article>
+
+            
+            <article class="post-card">
+                <div class="post-card__image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Fetch API">
+                    <div class="post-card__category">JavaScript</div>
+                </div>
+                
+                <div class="post-card__content">
+                    <header class="post-card__header">
+                        <h2 class="post-card__title">
+                            <a href="fetch-api">Làm việc với Fetch API</a>
+                        </h2>
+                        <p class="post-card__excerpt">
+                            Tìm hiểu cách sử dụng Fetch API để thực hiện các yêu cầu HTTP và xử lý dữ liệu từ server.
+                        </p>
+                    </header>
+                    
+                    <div class="post-card__meta">
+                        <div class="post-card__date">
+                            <i class="far fa-calendar"></i>
+                            <span>28 Tháng 5, 2023</span>
+                        </div>
+                        <div class="post-card__reading-time">
+                            <i class="far fa-clock"></i>
+                            <span>8 phút đọc</span>
+                        </div>
+                    </div>
+                    
+                    <footer class="post-card__footer">
+                        <a href="fetch-api" class="post-card__read-more">
+                            Đọc tiếp
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="post-card__tags">
+                            <span class="post-card__tag">#JavaScript</span>
+                            <span class="post-card__tag">#API</span>
+                        </div>
+                    </footer>
+                </div>
+            </article>
+
+            
+            <article class="post-card">
+                <div class="post-card__image">
+                    <img src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="JavaScript Basics">
+                    <div class="post-card__category">JavaScript</div>
+                </div>
+                
+                <div class="post-card__content">
+                    <header class="post-card__header">
+                        <h2 class="post-card__title">
+                            <a href="javascript-es6">JavaScript ES6+ Features - Những tính năng quan trọng</a>
+                        </h2>
+                        <p class="post-card__excerpt">
+                            Khám phá các tính năng mới trong ES6+
+                        </p>
+                    </header>
+                    
+                    <div class="post-card__meta">
+                        <div class="post-card__date">
+                            <i class="far fa-calendar"></i>
+                            <span>25 Tháng 5, 2023</span>
+                        </div>
+                        <div class="post-card__reading-time">
+                            <i class="far fa-clock"></i>
+                            <span>6 phút đọc</span>
+                        </div>
+                    </div>
+                    
+                    <footer class="post-card__footer">
+                        <a href="javascript-es6" class="post-card__read-more">
+                            Đọc tiếp
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="post-card__tags">
+                            <span class="post-card__tag">#JavaScript</span>
+                            <span class="post-card__tag">#ES6</span>
+                        </div>
+                    </footer>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+</html>
