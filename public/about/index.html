@@ -18,12 +18,12 @@
 
 
     
-        
-            
-                
-            
-            Nguyễn Thị Như Quỳnh
-            Lập Trình Viên Frontend">
+  
+    
+      
+    
+    Nguyễn Thị Như Quỳnh
+    Lập Trình Viên Frontend">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/about/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.a482bf00fa5c046040ef7973ad5fdf5657890cacb596c93f1382f664ca542074.css" integrity="sha256-pIK/APpcBGBA73lzrV/fVleJDKy1lsk/E4L2ZMpUIHQ=" rel="preload stylesheet" as="style">
@@ -194,79 +194,123 @@
 
         /* Header */
         .about-header {
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-            color: white;
-            padding: 100px 0 80px;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
+  background: linear-gradient(135deg, #6a5acd, #8a2be2);
+  color: white;
+  padding: 5rem 1rem 6rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
 
-        .about-header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,213.3C672,192,768,128,864,128C960,128,1056,192,1152,192C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
-            background-size: cover;
-            background-position: center;
-        }
+/* Hiệu ứng vòng tròn mờ phía sau */
+.about-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Đặt hình và tên theo cột */
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(135deg, #5B2BEB, #8A4FFF);
+  border-radius: 16px;
+  overflow: hidden;
+  color: white;
+}
 
-        .profile-container {
-            position: relative;
-            z-index: 2;
-        }
+.about-header::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  right: -90px;
+  width: 320px;
+  height: 320px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  filter: blur(70px);
+  z-index: 1;
+}
 
-        .profile-image {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            border: 5px solid rgba(255, 255, 255, 0.3);
-            margin: 0 auto 25px;
-            background: linear-gradient(135deg, var(--accent-color) 0%, #f5576c 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 70px;
-            color: white;
-        }
+.profile-container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
 
-        .profile-title {
-            font-size: 2.8rem;
-            margin-bottom: 10px;
-            font-weight: 700;
-        }
+/* Ảnh ở giữa, bo tròn đẹp */
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
 
-        .profile-subtitle {
-            font-size: 1.4rem;
-            margin-bottom: 25px;
-            opacity: 0.9;
-            font-weight: 300;
-        }
+.profile-image img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.4),
+              0 4px 25px rgba(0, 0, 0, 0.25);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
 
-        .contact-info {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-            margin-top: 20px;
-        }
+.profile-image img:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 35px rgba(255, 255, 255, 0.6),
+              0 6px 25px rgba(0, 0, 0, 0.3);
+}
 
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            background: rgba(255, 255, 255, 0.2);
-            padding: 10px 20px;
-            border-radius: 50px;
-            backdrop-filter: blur(10px);
-        }
+/* Tên */
+.profile-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 0.5rem;
+}
 
-        .contact-item i {
-            font-size: 1.2rem;
-        }
+/* Chức danh */
+.profile-subtitle {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #e0e0e0;
+  margin-bottom: 1.8rem;
+}
+
+/* Liên hệ */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.25s;
+  width: fit-content;
+  font-size: 0.95rem;
+}
+
+.contact-item:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-3px);
+}
+
+.contact-item i {
+  font-size: 1.1rem;
+}
+
 
         /* Main Content */
         .about-content {
@@ -446,55 +490,59 @@
 
         /* Certificates */
         .certificates-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-        }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
 
-        .certificate-card {
-            background: var(--white);
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: var(--shadow);
-            transition: all 0.3s ease;
-            border: 1px solid var(--gray-200);
-        }
+.certificate-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden; /* Giúp bo tròn ảnh và nội dung */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
 
-        .certificate-card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--shadow-lg);
-        }
+.certificate-card:hover {
+  transform: translateY(-5px);
+}
 
-        .certificate-image {
-            height: 200px;
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 3rem;
-        }
+.certificate-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
 
-        .certificate-content {
-            padding: 20px;
-        }
+.certificate-content {
+  padding: 1rem 1.2rem;
+  text-align: left;
+}
 
-        .certificate-title {
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-            color: var(--text-color);
-        }
+.certificate-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0.2rem 0;
+}
 
-        .certificate-org {
-            color: var(--primary-color);
-            font-weight: 600;
-            margin-bottom: 5px;
-        }
+.certificate-org {
+  color: #0077cc;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
 
-        .certificate-date {
-            color: var(--text-light);
-            font-size: 0.9rem;
-        }
+.certificate-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.certificate-content p {
+  font-size: 0.95rem;
+  color: #444;
+  margin: 0;
+}
 
         /* Contact */
         .contact-actions {
@@ -584,29 +632,29 @@
 </head>
 <body>
     <header class="about-header">
-        <div class="container profile-container">
-            <div class="profile-image">
-                <i class="fas fa-user"></i>
-            </div>
-            <h1 class="profile-title">Nguyễn Thị Như Quỳnh</h1>
-            <p class="profile-subtitle">Lập Trình Viên Frontend</p>
-            
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <span>nhuquynhnguyenthi709.com</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-github"></i>
-                    <span>github.com/nwyn-07</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-globe"></i>
-                    <span>nwyn-07.github.io</span>
-                </div>
-            </div>
-        </div>
-    </header>
+  <div class="profile-container">
+    <div class="profile-image">
+      <img src="/images/profile.jpg" alt="Nguyễn Thị Như Quỳnh" />
+    </div>
+    <h1 class="profile-title">Nguyễn Thị Như Quỳnh</h1>
+    <p class="profile-subtitle">Lập Trình Viên Frontend</p>
+
+    <div class="contact-info">
+      <a href="mailto:nhuquynhnguyenthi709.com" class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <span>nhuquynhnguyenthi709.com</span>
+      </a>
+      <a href="https://github.com/nwyn-07" target="_blank" class="contact-item">
+        <i class="fab fa-github"></i>
+        <span>github.com/nwyn-07</span>
+      </a>
+      <a href="https://nwyn-07.github.io" target="_blank" class="contact-item">
+        <i class="fas fa-globe"></i>
+        <span>nwyn-07.github.io</span>
+      </a>
+    </div>
+  </div>
+</header>
 
     <main class="about-content">
         <div class="container">
@@ -676,7 +724,7 @@
                 <div class="certificates-grid">
                     <div class="certificate-card">
                         <div class="certificate-image">
-                            <i class="fas fa-network-wired"></i>
+                            <img src="/images/networkbasic.jpg" alt="Network Basic" />
                         </div>
                         <div class="certificate-content">
                             <h3 class="certificate-title">Network Basic</h3>
@@ -688,7 +736,7 @@
                     
                     <div class="certificate-card">
                         <div class="certificate-image">
-                            <i class="fab fa-js-square"></i>
+                            <img src="/images/javascriptessential1.jpg" alt="JavaScript Essential 1" />
                         </div>
                         <div class="certificate-content">
                             <h3 class="certificate-title">JavaScript Essential 1</h3>
@@ -700,7 +748,7 @@
                     
                     <div class="certificate-card">
                         <div class="certificate-image">
-                            <i class="fab fa-js"></i>
+                            <img src="/images/javascriptessential2.jpg" alt="JavaScript Essential 2" />
                         </div>
                         <div class="certificate-content">
                             <h3 class="certificate-title">JavaScript Essential 2</h3>
